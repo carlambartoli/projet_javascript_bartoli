@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables de multiplications</title>
+</head>
+<body>
+    <h1>Tables de multiplication</h1>
+    <p>
+        Table de <input id="input-table" type="number">
+    </p>
+    <p id="result">
+    </p>
+
+    <script>
+        const input = document.getElementById('input-table');
+        const result = document.getElementById('result');
+        input.addEventListener('change',(elementCourant)=>{
+            texte = "";
+    for(var i=0; i<13; i++){
+        texte = texte + i + " x " + input.value + " = " + i * parseInt(input.value) + '<br>';
+    }
+    result.innerHTML = texte;
+        })
+
+
+
+    </script>
+</body>
+</html>

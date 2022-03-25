@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chanel</title>
+    <link rel="stylesheet" href="style/style3.css">
+    <link rel="shortcut icon" href="logo1.png" type="image/x-icon">
+</head>
+<body>
+<h1>CHANEL</h1>
+<nav>
+<ul> 
+    <li><a href="haute couture.html">haute couture</a></li>
+    <li><a href="mode.html">mode</a></li>
+    <li><a href="hautejoaillerie.html">haute joaillerie</a></li>
+    <li><a href="joaillerie">joaillerie</a></li>
+    <li><a href="horlogerie">horlogerie</a></li>
+    <li><a href="lunnettes">lunnettes</a></li>
+    <li><a href="parfums">parfums</a></li>
+    <li><a href="maquillage">maquillage</a></li>
+    <li><a href="soin">soin</a></li>
+    <li><a href="about chanel">about chanel</a></li>
+    
+  </ul>
+</nav>
+
+<div>
+    <img src="img/sac.jpeg" alt="">
+    <img src="img/sac2.jpeg" alt="">
+    <img src="img/sac3.jpeg" alt="">
+</div>
+
+<div>
+    <img src="img/sac4.jpeg" alt="">
+    <img src="img/sac5.jpeg" alt="">
+    <img src="img/sac6.jpeg" alt="">
+</div>
+
+
+    
+<style>span{color : red;}</style>
+   
+    
+
+   <script>
+     const nav = document.querySelector("nav");
+// console.log(nav);
+window.addEventListener("scroll", () => {
+  let pixel_scroll = window.scrollY;
+  console.log(pixel_scroll);
+  if (pixel_scroll > 20) {
+    nav.style.top = 0;
+    nav.style.backgroundColor = "pink";
+  } else {
+    nav.style.top = "-50px";
+  }
+});
+    
+    </script> 
+</body>
+<style>
+    ul{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color : black;
+        font-size: 1.3rem;
+    }
+</style>
+</html>
+ 
