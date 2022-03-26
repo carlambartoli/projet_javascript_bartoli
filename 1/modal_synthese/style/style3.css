@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    height: 150vh;
+}
+
+
+img:hover{
+    outline: 7px solid rgb(12, 7, 7);
+}
+h2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+div{
+    margin : 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    height: 30%;
+    width: 20%;
+}
+#image1{
+    height: auto;
+    width: 80%
+}
+
+#photo2{
+    height: auto;
+    width: 80%;
+
+}
+nav{
+    background-color: white;
+    position: fixed;
+    color : black;
+    transition: all 0.3s ease-out;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+    ul{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color : black;
+        font-size: 1.3rem;
+    }

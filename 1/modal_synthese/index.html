@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chanel</title>
+    <link rel="stylesheet" href="style/style3.css">
+    <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
+</head>
+<h1>CHANEL</h1>
+<nav>
+
+<ul> 
+    <li><a href="haute couture.html">haute couture</a></li>
+    <li><a href="mode.html">mode</a></li>
+    <li><a href="hautejoaillerie.html">haute joaillerie</a></li>
+    <li>joaillerie</li>
+    <li>horlogerie</li>
+    <li>lunnettes</li>
+    <li>parfums</li>
+    <li>maquillage</li>
+    <lisoin</li>
+    <li>about chanel</li>
+    
+  </ul>
+  
+</nav>
+
+<body>
+
+
+<a href="https://www.chanel.com/fr/mode/collection/pre-collection-printemps-ete-2022/">
+<img id="image1"src="img/chanel_photo.jpeg" alt="auto">  </a>
+    
+<style>span{color : red;}</style>
+   
+    
+
+   <script>
+const nav = document.querySelector("nav");
+// console.log(nav);
+window.addEventListener("scroll", () => {
+  let pixel_scroll = window.scrollY;
+  console.log(pixel_scroll);
+  if (pixel_scroll > 20) {
+    nav.style.top = 0;
+    nav.style.backgroundColor = "pink";
+  } else {
+    nav.style.top = "-50px";
+  }
+});
+
+    </script> 
+</body>
+<style>
+    ul{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color : black;
+        font-size: 1.3rem;
+    }
+</style>
+</html>
+ 
